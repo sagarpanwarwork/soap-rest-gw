@@ -1,0 +1,36 @@
+# Terraform working directories
+**/.terraform/
+
+# Temporary Terraform files
+.terraform.lock.hcl.tmp
+.terraform.tfstate.lock.info
+
+# Terraform state and crash logs
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Local environment configuration
+*.tfvars
+*.tfvars.json
+**/backend.hcl
+
+# Terraform override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plans
+*.tfplan
+tfplan
+planout
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# Generated application artifacts
+/build/
+/lambda-run-hello.zip

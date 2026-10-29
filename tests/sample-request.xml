@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <soap:Body>
+    <CreateUserRequest xmlns="urn:zeron:users:v1">
+      <FirstName>Ajmal</FirstName>
+      <LastName>Student</LastName>
+      <Age>29</Age>
+    </CreateUserRequest>
+  </soap:Body>
+</soap:Envelope>

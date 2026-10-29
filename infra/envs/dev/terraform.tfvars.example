@@ -1,0 +1,8 @@
+# DOC-ONLY example. Replace this reserved TEST-NET address with your actual
+# stable public egress IP in CIDR notation, usually a /32. Never use 0.0.0.0/0.
+allowed_client_cidrs = ["203.0.113.10/32"]
+
+# DummyJSON simulates POST /users/add; it does not persist users.
+third_party_api_url = "https://dummyjson.com/users/add"
+
+# Development uses WAF allowlisting plus API Gateway throttling; no SigV4 required for basic curl tests.
